@@ -1,0 +1,175 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Awards"
+  },
+  "basics": {
+    "name": "Nicholas Hubbard",
+    "email": "hubbardn95@gmail.com",
+    "phone": "(586) 383-3499",
+    "location": {
+      "address": "Metro Detroit Area, MI"
+    },
+    "website": "https://github.com/nhubbard"
+  },
+  "education": [
+    {
+      "institution": "Gannon University",
+      "location": "Erie, PA",
+      "area": "Computer Science/Software Engineering (Dual Major)",
+      "studyType": "BS",
+      "startDate": "August 2020",
+      "gpa": "3.1"
+    }
+  ],
+  "work": [
+    {
+      "company": "Gannon University",
+      "location": "Erie, PA",
+      "website": "",
+      "endDate": "Present",
+      "highlights": [
+        "Maintain, backup, update and set up CIS department servers, networking, and monitoring",
+        "Deploy, update, and maintain shared department computer labs (80+ desktops)",
+        "Completed major server room power delivery project under budget and over specification"
+      ],
+      "position": "Infrastructure Technician (Work Study)",
+      "startDate": "October 2021"
+    },
+    {
+      "highlights": [
+        "Migrated 60+ wiki pages from JIRA to MkDocs and GitHub (Markdown)",
+        "Rewrote many pages to match updated and current practices",
+        "Wrote multiple Python plugins for MkDocs to enable custom functionality lost during JIRA migration, each with full documentation and 100% test coverage",
+        "Redesigned MkDocs platform around the MkDocs for Material theme",
+        "Completed entire project within the duration of the internship, with team members commending the final product"
+      ],
+      "company": "Rock Central (Rocket Mortgage)",
+      "position": "Systems Engineering Intern",
+      "location": "Detroit, MI and Remote",
+      "startDate": "May 2021",
+      "endDate": "August 2021"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Java 11+",
+        "Kotlin",
+        "Kotlin Coroutines",
+        "Kotlin Serialization",
+        "Kotlin IO",
+        "Gradle (Groovy and Kotlin DSL)",
+        "Python 3",
+        "Modern Android Development (MAD)",
+        "HTML 5",
+        "CSS 3",
+        "JavaScript (ES6+)",
+        "TypeScript",
+        "MySQL",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "Markdown (including GFM and other extensions)",
+        "LaTeX (this resume was created with LaTeX!)"
+      ],
+      "name": "Markup and Typesetting"
+    }
+  ],
+  "projects": [
+    {
+      "url": "(currently private and in development, can demo on request)",
+      "keywords": [
+        "Kotlin",
+        "Kotlin Coroutines",
+        "JUnit 5",
+        "Gradle Kotlin DSL",
+        "CSS 3",
+        "Tailwind CSS v3"
+      ],
+      "name": "Autoclave",
+      "description": "An automatic converter to migrate pure CSS projects to Tailwind CSS. In progress."
+    },
+    {
+      "keywords": [
+        "Python 3",
+        "TensorFlow",
+        "NVIDIA CUDA",
+        "Machine learning",
+        "OpenCV"
+      ],
+      "name": "VTK",
+      "description": "An easy-to-use vision toolkit for working with SSD and SSD-Lite TensorFlow object detection models.",
+      "url": "https://github.com/Robocubs/vtk"
+    },
+    {
+      "keywords": [
+        "Python 3",
+        "Numpy",
+        "NVIDIA CUDA",
+        "NVIDIA Jetson Platform(s)",
+        "Google Coral AI Accelerators",
+        "OpenCV",
+        "FIRST Robotics NetworkTables"
+      ],
+      "name": "MLRun",
+      "description": "An end-to-end machine learning model inference tool.",
+      "url": "https://github.com/Robocubs/mlrun"
+    },
+    {
+      "keywords": [
+        "Kotlin",
+        "Kotlin Coroutines",
+        "Selenium",
+        "JUnit 5",
+        "OkHttp",
+        "Retrofit 2",
+        "Modern Android Development (MAD)",
+        "Firebase"
+      ],
+      "name": "Librecampus",
+      "description": "A mobile app for Blackbaud onCampus-based LMS systems.",
+      "url": "(private, can show upon request; no demo can be provided)"
+    },
+    {
+      "keywords": [
+        "Python 3",
+        "Goldman Sachs Marquee",
+        "TensorFlow",
+        "NewsAPI",
+        "VADER Sentiment Analysis",
+        "Bootstrap",
+        "Django 2"
+      ],
+      "name": "StockWise",
+      "description": "Stock sentiment analysis using Python, Goldman Sachs Marquee, TensorFlow, and NewsAPI.",
+      "url": "https://devpost.com/software/mhacks11-ypgx83"
+    }
+  ],
+  "awards": [
+    {
+      "title": "FIRST Robotics Autonomous Award",
+      "date": "March 2019",
+      "awarder": "FIRST In Michigan Alpina 2 Event",
+      "summary": "Recognized for creating the first machine learning-based vision system in FIRST Robotics, used to detect and track objects on the game field. The code for the project was later released under the name VTK."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

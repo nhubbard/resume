@@ -1,0 +1,162 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Nicholas} \headerlastnamestyle{Hubbard} \\
+	\vspace{2mm}
+	{\faEnvelope\ hubbardn95@gmail.com} | {\faMobile\ (586) 383-3499} | {\faMapMarker\ Metro Detroit Area, MI} | {\faLink\ https://github.com/nhubbard}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Computer Science/Software Engineering (Dual Major)}
+	{Gannon University}
+	{Erie, PA}
+	{August 2020 – Present}
+	{GPA: 3.1}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Infrastructure Technician (Work Study)}
+	{Gannon University}
+	{Erie, PA}
+	{October 2021 – Present}
+	{\begin{cvitems}
+		\item {Maintain, backup, update and set up CIS department servers, networking, and monitoring}
+		\item {Deploy, update, and maintain shared department computer labs (80+ desktops)}
+		\item {Completed major server room power delivery project under budget and over specification}
+		\end{cvitems}}
+	\cventry
+	{Systems Engineering Intern}
+	{Rock Central (Rocket Mortgage)}
+	{Detroit, MI and Remote}
+	{May 2021 – August 2021}
+	{\begin{cvitems}
+		\item {Migrated 60+ wiki pages from JIRA to MkDocs and GitHub (Markdown)}
+		\item {Rewrote many pages to match updated and current practices}
+		\item {Wrote multiple Python plugins for MkDocs to enable custom functionality lost during JIRA migration, each with full documentation and 100\% test coverage}
+		\item {Redesigned MkDocs platform around the MkDocs for Material theme}
+		\item {Completed entire project within the duration of the internship, with team members commending the final product}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Java 11+, Kotlin, Kotlin Coroutines, Kotlin Serialization, Kotlin IO, Gradle (Groovy and Kotlin DSL), Python 3, Modern Android Development (MAD), HTML 5, CSS 3, JavaScript (ES6+), TypeScript, MySQL, PostgreSQL, Tailwind CSS}} \\
+		Markup and Typesetting:  & {\skill{ Markdown (including GFM and other extensions), LaTeX (this resume was created with LaTeX!)}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{An automatic converter to migrate pure CSS projects to Tailwind CSS. In progress.}
+	{Autoclave}
+	{Kotlin, Kotlin Coroutines, JUnit 5, Gradle Kotlin DSL, CSS 3, Tailwind CSS v3}
+	{(currently private and in development, can demo on request)}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{An easy-to-use vision toolkit for working with SSD and SSD-Lite TensorFlow object detection models.}
+	{VTK}
+	{Python 3, TensorFlow, NVIDIA CUDA, Machine learning, OpenCV}
+	{https://github.com/Robocubs/vtk}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{An end-to-end machine learning model inference tool.}
+	{MLRun}
+	{Python 3, Numpy, NVIDIA CUDA, NVIDIA Jetson Platform(s), Google Coral AI Accelerators, OpenCV, FIRST Robotics NetworkTables}
+	{https://github.com/Robocubs/mlrun}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{A mobile app for Blackbaud onCampus-based LMS systems.}
+	{Librecampus}
+	{Kotlin, Kotlin Coroutines, Selenium, JUnit 5, OkHttp, Retrofit 2, Modern Android Development (MAD), Firebase}
+	{(private, can show upon request; no demo can be provided)}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{Stock sentiment analysis using Python, Goldman Sachs Marquee, TensorFlow, and NewsAPI.}
+	{StockWise}
+	{Python 3, Goldman Sachs Marquee, TensorFlow, NewsAPI, VADER Sentiment Analysis, Bootstrap, Django 2}
+	{https://devpost.com/software/mhacks11-ypgx83}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Awards}
+\begin{cvhonors}
+	\cvhonor
+	{FIRST Robotics Autonomous Award}
+	{Recognized for creating the first machine learning-based vision system in FIRST Robotics, used to detect and track objects on the game field. The code for the project was later released under the name VTK.}
+	{FIRST In Michigan Alpina 2 Event}
+	{March 2019}
+\end{cvhonors}
+\ 
+\end{document}
