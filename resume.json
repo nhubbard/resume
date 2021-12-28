@@ -1,12 +1,4 @@
 {
-  "selectedTemplate": 2,
-  "headings": {
-    "work": "Work Experience",
-    "education": "Education",
-    "skills": "Skills",
-    "projects": "Projects",
-    "awards": "Awards"
-  },
   "basics": {
     "name": "Nicholas Hubbard",
     "email": "hubbardn95@gmail.com",
@@ -22,7 +14,7 @@
       "location": "Erie, PA",
       "area": "Computer Science/Software Engineering (Dual Major)",
       "studyType": "BS",
-      "startDate": "August 2020",
+      "startDate": "2020-08-15",
       "gpa": "3.1"
     }
   ],
@@ -30,29 +22,28 @@
     {
       "company": "Gannon University",
       "location": "Erie, PA",
-      "website": "",
-      "endDate": "Present",
       "highlights": [
         "Maintain, backup, update and set up CIS department servers, networking, and monitoring",
         "Deploy, update, and maintain shared department computer labs (80+ desktops)",
         "Completed major server room power delivery project under budget and over specification"
       ],
       "position": "Infrastructure Technician (Work Study)",
-      "startDate": "October 2021"
+      "startDate": "2021-10-18"
     },
     {
       "highlights": [
         "Migrated 60+ wiki pages from JIRA to MkDocs and GitHub (Markdown)",
-        "Rewrote many pages to match updated and current practices",
-        "Wrote multiple Python plugins for MkDocs to enable custom functionality lost during JIRA migration, each with full documentation and 100% test coverage",
+        "Rewrote pages to match updated and current practices",
+        "Wrote and tested Python plugins for MkDocs to enable custom functionality lost during JIRA migration",
         "Redesigned MkDocs platform around the MkDocs for Material theme",
-        "Completed entire project within the duration of the internship, with team members commending the final product"
+        "Deployed final product to internal AWS system using Terraform",
+        "Full-time team members commended the final product"
       ],
       "company": "Rock Central (Rocket Mortgage)",
       "position": "Systems Engineering Intern",
       "location": "Detroit, MI and Remote",
-      "startDate": "May 2021",
-      "endDate": "August 2021"
+      "startDate": "2021-05-21",
+      "endDate": "2021-08-13"
     }
   ],
   "skills": [
@@ -62,25 +53,20 @@
       "keywords": [
         "Java 11+",
         "Kotlin",
-        "Kotlin Coroutines",
-        "Kotlin Serialization",
-        "Kotlin IO",
-        "Gradle (Groovy and Kotlin DSL)",
+        "Gradle",
         "Python 3",
         "Modern Android Development (MAD)",
-        "HTML 5",
-        "CSS 3",
-        "JavaScript (ES6+)",
-        "TypeScript",
-        "MySQL",
-        "PostgreSQL",
+        "HTML and CSS",
+        "JavaScript and TypeScript",
+        "MySQL and PostgreSQL",
         "Tailwind CSS"
       ]
     },
     {
       "keywords": [
-        "Markdown (including GFM and other extensions)",
-        "LaTeX (this resume was created with LaTeX!)"
+        "Markdown",
+        "reStructuredText",
+        "LaTeX"
       ],
       "name": "Markup and Typesetting"
     }
@@ -158,18 +144,9 @@
   "awards": [
     {
       "title": "FIRST Robotics Autonomous Award",
-      "date": "March 2019",
+      "date": "2019-03-15",
       "awarder": "FIRST In Michigan Alpina 2 Event",
       "summary": "Recognized for creating the first machine learning-based vision system in FIRST Robotics, used to detect and track objects on the game field. The code for the project was later released under the name VTK."
     }
-  ],
-  "sections": [
-    "templates",
-    "profile",
-    "education",
-    "work",
-    "skills",
-    "projects",
-    "awards"
   ]
 }

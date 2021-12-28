@@ -20,6 +20,7 @@
 %%% Themes: Awesome-CV
 \documentclass[]{awesome-cv}
 \usepackage{textcomp}
+\usepackage{multicol}
 %%% Override a directory location for fonts(default: 'fonts/')
 \fontdir[fonts/]
 
@@ -49,7 +50,7 @@
 \begin{center}
 	\headerfirstnamestyle{Nicholas} \headerlastnamestyle{Hubbard} \\
 	\vspace{2mm}
-	{\faEnvelope\ hubbardn95@gmail.com} | {\faMobile\ (586) 383-3499} | {\faMapMarker\ Metro Detroit Area, MI} | {\faLink\ https://github.com/nhubbard}
+	\bodyfont{\faEnvelope\ hubbardn95@gmail.com} | {\faMobile\ (586) 383-3499} | {\faMapMarker\ Metro Detroit Area, MI} | {\faLink\ https://github.com/nhubbard}
 \end{center}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
@@ -95,18 +96,36 @@
 \end{cventries}
 \cvsection{Skills}
 \begin{cventries}
-	\cventry
-	{}
-	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
-		Programming Languages:  & {\skill{ Java 11+, Kotlin, Kotlin Coroutines, Kotlin Serialization, Kotlin IO, Gradle (Groovy and Kotlin DSL), Python 3, Modern Android Development (MAD), HTML 5, CSS 3, JavaScript (ES6+), TypeScript, MySQL, PostgreSQL, Tailwind CSS}} \\
-		Markup and Typesetting:  & {\skill{ Markdown (including GFM and other extensions), LaTeX (this resume was created with LaTeX!)}} \\
-		\end{tabular}}}
-	{}
-	{}
-	{}
+	\bodyfont{
+	\textbf{Programming Languages}\\
+	\begin{multicols}{3}
+		\begin{itemize}
+			\item{Java 11+}
+			\item{Kotlin}
+			\item{Kotlin Coroutines}
+			\item{Kotlin Serialization}
+			\item{Kotlin IO}
+			\item{Gradle (Groovy and Kotlin DSLs)}
+			\item{Python 3}
+			\item{Modern Android Development (MAD)}
+			\item{HTML 5}
+			\item{CSS 3}
+			\item{Tailwind CSS v3}
+			\item{JavaScript (ES6+)}
+			\item{TypeScript}
+			\item{MySQL}
+			\item{PostgreSQL}
+		\end{itemize}
+	\end{multicols}
+	\textbf{Markup and Typesetting}\\
+	\begin{itemize}
+		\item{Markdown (including GFM and other extensions)}
+		\item{LaTeX (this resume was created with LaTeX!)}
+	\end{itemize}
+	}
 \end{cventries}
 
-\vspace{-7mm}
+%\vspace{-7mm}
 \cvsection{Projects}
 \begin{cventries}
 	\cventry
