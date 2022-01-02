@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhubbard/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhubbard/resume/issues"
+  },
+  "homepage": "https://github.com/nhubbard/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-modern": "^0.0.18",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-spartan": "^0.3.0",
+    "resume-cli": "^3.0.5"
+  }
+}
